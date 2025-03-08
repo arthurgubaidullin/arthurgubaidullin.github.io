@@ -28,7 +28,15 @@
         "unifiedjs.vscode-mdx"
       ]
     }
-  }
+  },
+
+  "remoteEnv": {
+    "TURBO_TELEMETRY_DISABLED": "1",
+    "DO_NOT_TRACK": "1",
+    "ASTRO_TELEMETRY_DISABLED": "1"
+  },
+
+  "runArgs": ["--name", "arthurgubaidullin-github-io-devcontainer"]
 
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
